@@ -1,0 +1,30 @@
+env:
+  browser: true
+  es6: true
+extends: 'standard'
+parser: babel-eslint
+parserOptions:
+  sourceType: module
+rules:
+  indent:
+    - error
+    - 2
+  linebreak-style:
+    - error
+    - unix
+    - window
+  quotes:
+    - error
+    - single
+  semi:
+    - error
+    - always
+  generator-star-spacing: 0
+  arrow-parens: 0
+  space-before-function-paren:
+    - error
+    - anonymous: always
+      named: never
+      asyncArrow: never
+plugins:
+  - html
