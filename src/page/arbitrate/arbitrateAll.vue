@@ -6,7 +6,7 @@
                 slot="header"
                 style="width:100%;position:absolute;left:0;top:0;z-index:100;"
                 title="待仲裁遗失"
-                :left-options="{backText:''}" >
+                :left-options="{backText:'11'}" >
             </x-header>
             <div class="outBox">
                 <div class="timeTips">统计时间 10:30</div>
